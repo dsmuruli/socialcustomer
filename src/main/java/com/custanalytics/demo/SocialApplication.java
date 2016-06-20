@@ -40,6 +40,7 @@ import org.springframework.web.util.WebUtils;
 public class SocialApplication extends WebSecurityConfigurerAdapter {
 
 	public static void main(String[] args) {
+		System.out.println("Started social customer application");
 		SpringApplication.run(SocialApplication.class, args);
 	}
 
